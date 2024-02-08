@@ -1,17 +1,20 @@
-<div
-  class="container mask mask-squircle pointer-events-none size-full min-h-96 overflow-hidden"
->
+<div class="container mask mask-squircle">
   <div class="stars" />
-  <div class="clouds" />
   <div class="spinner">
     <div class="shape sun" />
     <div class="shape moon" />
   </div>
+  <div class="clouds" />
 </div>
 
 <style>
   .container {
+    pointer-events: none;
     position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    min-height: 20rem;
     background-image: linear-gradient(
       #14045f,
       #331a99,
