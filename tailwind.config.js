@@ -1,11 +1,17 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,svelte,js,ts}"],
+  content: ['./src/**/*.{html,svelte,js,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['SCoreDream', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
-    themes: ["winter"],
+    themes: ['winter'],
   },
 };

@@ -1,5 +1,6 @@
 <script>
-  import "tailwindcss/tailwind.css";
+  import '../app.pcss'
+  import 'tailwindcss/tailwind.css';
 </script>
 
 <svelte:head>
@@ -7,4 +8,8 @@
   <meta name="description" content="당신은 지금 몇 시인가요?" />
 </svelte:head>
 
-<slot />
+<main class="prose">
+  <div class="absolute inset-0 m-auto size-full min-h-[40rem] max-w-md">
+    <slot />
+  </div>
+</main>
