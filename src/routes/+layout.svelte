@@ -1,5 +1,5 @@
 <script>
-  import '../app.pcss'
+  import '../app.pcss';
   import 'tailwindcss/tailwind.css';
 </script>
 
@@ -9,7 +9,7 @@
 </svelte:head>
 
 <main class="prose">
-  <div class="absolute inset-0 m-auto size-full min-h-[40rem] max-w-md">
+  <div class="absolute inset-0 m-auto max-w-md">
     <slot />
   </div>
 </main>
