@@ -33,7 +33,7 @@
 
 <div class="card card-compact max-h-[40rem]">
   <div class="card-body items-center gap-2">
-    <h1>인생 시계</h1>
+    <h1 class="m-4">인생 시계</h1>
 
     <DayNight />
 
