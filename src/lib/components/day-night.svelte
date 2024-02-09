@@ -1,11 +1,11 @@
-<div class="container mask mask-squircle">
+<figure class="container mask mask-squircle">
   <div class="stars" />
   <div class="spinner">
     <div class="shape sun" />
     <div class="shape moon" />
   </div>
   <div class="clouds" />
-</div>
+</figure>
 
 <style>
   .container {

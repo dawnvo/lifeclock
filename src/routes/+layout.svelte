@@ -8,8 +8,6 @@
   <meta name="description" content="당신은 지금 몇 시인가요?" />
 </svelte:head>
 
-<main class="prose">
-  <div class="absolute inset-0 m-auto max-w-md">
-    <slot />
-  </div>
+<main>
+  <slot />
 </main>
