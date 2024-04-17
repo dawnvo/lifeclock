@@ -31,7 +31,7 @@
   };
 </script>
 
-<div class="hero min-h-screen">
+<main class="hero min-h-screen">
   <div class="hero-content w-full max-w-sm flex-col">
     <h1 class="text-3xl font-bold">인생 시계</h1>
 
@@ -60,7 +60,7 @@
 
       <button
         type="submit"
-        class=" btn btn-primary my-4 w-full shadow shadow-primary/20"
+        class="btn btn-primary my-4 w-full shadow shadow-primary/20"
         on:click={handleCalculate}
       >
         계산하기
@@ -71,4 +71,4 @@
       <h2 class="text-xl font-bold">{result}</h2>
     {/if}
   </div>
-</div>
+</main>
