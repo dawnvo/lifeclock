@@ -1,11 +1,11 @@
-<figure class="container mask mask-squircle">
+<div class="container mask mask-squircle">
   <div class="stars" />
   <div class="spinner">
     <div class="shape sun" />
     <div class="shape moon" />
   </div>
   <div class="clouds" />
-</figure>
+</div>
 
 <style>
   .container {
@@ -49,7 +49,7 @@
   }
   .spinner {
     position: absolute;
-    top: 100%;
+    top: 112%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0);
 

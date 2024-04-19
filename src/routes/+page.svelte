@@ -32,13 +32,20 @@
 </script>
 
 <main class="hero min-h-screen">
-  <div class="hero-content w-full max-w-sm flex-col">
-    <h1 class="text-3xl font-bold">인생 시계</h1>
+  <div class="hero-content w-full max-w-sm flex-col text-center">
+    <figure class="size-full">
+      <DayNight />
+      <figcaption class="sr-only">day-night animation</figcaption>
+    </figure>
 
-    <DayNight />
+    <h1 class="font-medium">
+      당신의 삶이 24시간이라면
+      <br />
+      얼마나 많은 시간이 남았을까요?
+    </h1>
 
     <form class="flex w-full flex-col">
-      <label class="p-2 text-center">
+      <label class="p-2">
         <span class="label-text">기대수명:</span>
         <select class="select select-sm" bind:value={lifeExpectancy}>
           <option value="100" selected>100세</option>
